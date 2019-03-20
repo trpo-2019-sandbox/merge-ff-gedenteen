@@ -20,7 +20,7 @@ void print_array(int* arr, int size)
 {
     printf("Array: ");
     int i;
-    for (i = 0; i < N_ELEMENTS(arr); ++i) {
+    for (i = 0; i < size; ++i) {
         printf("%d ", arr[i]);
     }
     printf("\n");
